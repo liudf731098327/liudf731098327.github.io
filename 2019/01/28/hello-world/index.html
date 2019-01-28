@@ -70,10 +70,6 @@
     			
             
     			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-            
-    			
     			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
     			
             
@@ -83,11 +79,7 @@
 				
 					<a class="github" target="_blank" href="https://github.com/liudf731098327" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="qq" target="_blank" href="/731098327" title="qq"><i class="icon-qq"></i></a>
-		        
 					<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/21a2014e687c" title="jianshu"><i class="icon-jianshu"></i></a>
-		        
-					<a class="mail" target="_blank" href="/liudf731098327@163.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
 		</nav>
@@ -124,11 +116,7 @@
 					
 						<a class="github" target="_blank" href="https://github.com/liudf731098327" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="qq" target="_blank" href="/731098327" title="qq"><i class="icon-qq"></i></a>
-			        
 						<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/21a2014e687c" title="jianshu"><i class="icon-jianshu"></i></a>
-			        
-						<a class="mail" target="_blank" href="/liudf731098327@163.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -311,7 +299,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
@@ -334,25 +322,17 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -416,15 +396,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">大家互相学习进步吧</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">邮箱请联系：&lt;br&gt;liudf731098327@163.com</div>
   	  	
     	</section>
     
